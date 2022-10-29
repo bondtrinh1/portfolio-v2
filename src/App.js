@@ -6,11 +6,7 @@ function App() {
   return (
     <>
       <Container>
-        <nav style={{ 
-          display: "flex", 
-          flexDirection: "column", 
-          justifyContent: "space-evenly"
-        }}>
+        <nav style={{display: "flex", flexDirection: "column", justifyContent: "space-evenly"}}>
           <Link to="/">Home</Link>
           <Link to="about">About</Link>
           <Link to="projects">Projects</Link>
